@@ -1,0 +1,10 @@
+type Kind @key(fields: "kind_code") {
+	kind_code: String!
+	kind_name: String
+}
+
+type Query{
+	kinds: [Kind]
+	kind(kind_code: String): Kind
+	kindbyname(kind_name: String): Kind
+}
