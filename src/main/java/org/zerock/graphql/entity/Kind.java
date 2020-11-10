@@ -28,7 +28,7 @@ public class Kind implements Serializable {
 		return kind_code;
 	}
 	
-	public void setKind_code() {
+	public void setKind_code(String kind_code) {
 		this.kind_code = kind_code;
 	}
 }
