@@ -8,3 +8,4 @@ type Query{
 	kind(kind_code: String): Kind
 	kindbyname(kind_name: String): Kind
 }
+
